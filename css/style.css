@@ -1,13 +1,15 @@
 
 
   .mycard{
-    
-    height: 350px;
-    /*background-color: beige;*/
-    border: 6px solid;
-    border-color: red;
-    /*text-align: center;
-    padding-top: 10px;*/
+    -webkit-box-shadow: 0px 2px 13px -2px rgba(255,27,41,0.25); 
+box-shadow: 0px 2px 13px -2px rgba(255,27,41,0.25);
+  }
+  .mycard:hover{
+    background-color: black;
+    color: white;
   }
 
-  
+  .mycard2{
+    background-image:  url(../images/background111.png );
+    height: 400px;
+  }
